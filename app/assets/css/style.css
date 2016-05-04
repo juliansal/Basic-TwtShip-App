@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,600,400,300,700");
+@import url("http://fonts.googleapis.com/icon?family=Material+Icons");
+.clear:before, .clear:after {
+  content: ' ';
+  display: table; }
+
+.clear {
+  *zoom: 1; }
+
+.clear:after {
+  clear: both; }
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #424242;
+  color: #4A90E2; }
+
+h2 {
+  line-height: 70px; }
+
+/*******  Nav Styles  *******/
+nav {
+  background-color: #212121; }
+
+/*******  Body Styles  *******/
+#hero {
+  margin-top: 40px; }
+
+.center {
+  margin-top: 40px; }
+
+.search {
+  margin-top: 60px; }
+  .search .fa:hover {
+    text-shadow: 0 0 5px #67CADE; }
+  .search .search-bar {
+    min-width: 400px; }
+
+.input-field {
+  margin-top: 0; }
+
+input[type="text"] {
+  border-bottom: 3px solid #4A90E2;
+  font-size: 2rem;
+  color: #67CADE; }
+
+input:focus:not([type]):not([readonly]), input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: inherit;
+  box-shadow: 0 4px 0 -1px #4A90E2; }
+
+#results {
+  margin-top: 40px; }
+
+.twt-box {
+  background-color: #212121; }

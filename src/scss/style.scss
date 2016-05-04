@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:500,600,400,300,700");
+@import url("http://fonts.googleapis.com/icon?family=Material+Icons");
+
+$nav: #212121;
+$site_bg: #424242;
+$main_blue: #4A90E2;
+$sec_blue: #67CADE;
+$greyed: rgba(#525252, 0.7);
+
+
+.clear:before, .clear:after {
+  content: ' ';
+  display: table; }
+
+.clear {
+  *zoom: 1; }
+  .clear:after {
+    clear: both; }
+
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: $site_bg;
+  color: $main_blue;
+}
+
+h2 {
+  line-height: 70px;
+}
+
+
+/*******  Nav Styles  *******/
+nav {
+  background-color: $nav;
+}
+
+
+/*******  Body Styles  *******/
+#hero {
+  margin-top: 40px;
+}
+
+.center {
+  margin-top: 40px;
+}
+
+.search {
+  margin-top: 60px;
+
+  .fa {
+
+    &:hover {
+      text-shadow: 0 0 5px $sec_blue;
+    }
+  }
+  .search-bar {
+    min-width: 400px;
+  }
+}
+
+.input-field  {
+  margin-top: 0;
+}
+
+input[type="text"] {
+  border-bottom: 3px solid $main_blue;
+  font-size: 2rem;
+  color: $sec_blue;
+}
+
+input:focus:not([type]):not([readonly]), input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: inherit;
+    box-shadow: 0 4px 0 -1px $main_blue;
+}
+
+#results {
+  margin-top: 40px;
+}
+
+.twt-box {
+  background-color: $nav;
+}

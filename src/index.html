@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TwtShip</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="container">
+        <a href="#" class="brand-logo">TwtShip</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">GitHub</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div id="hero">
+      <h2 class="headline">TwtShip is a sidebar widget you can add to your website,
+        for checking Twitter updates on any handle or hashtag.
+      </h2>
+      <h2 class="center">Try it out!</h2>
+    </div>
+
+    <div id="twtship">
+      <div class="row search">
+        <div class="col s2">
+          <i class="fa fa-at fa-3x"></i>
+        </div>
+        <div class="col s2">
+          <i class="fa fa-hashtag fa-3x"></i>
+        </div>
+        <div class="input-field search-bar col s8">
+          <input placeholder="enter a subject or handle" id="twt-subject" type="text" class="validate">
+        </div>
+      </div>
+
+      <div id="results">
+        <div class="row twt-container">
+          <div class="col s12 m12">
+            <div class="card twt-box darken-1">
+              <div class="card-content white-text">
+                <div class="row">
+                  <div class="col s4 m4">
+                    <p class="card-title"><span class="twt-name">Jodfsdf Doe</span>aka</p>
+                  </div>
+                  <div class="col s6 m6">
+                    <p class="card-title"><span class="twt-handle">@saddfassdoe</span></p>
+                  </div>
+                  <div class="col s2 m2">
+                    <p class="card-title right twt-date">1 day ago</p>
+                  </div>
+                </div>
+                <p class="twt-text">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+                <a class="twt-link" href="htts://t.co/xxbjif4s">htts://t.co/xxbjif4s</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row twt">
+          <div class="col s12 m12">
+            <div class="card twt-box darken-1">
+              <div class="card-content white-text">
+                <div class="row">
+                  <div class="col s4 m4">
+                    <p class="card-title"><span class="twt-name">Jodfsdf Doe</span>aka</p>
+                  </div>
+                  <div class="col s6 m6">
+                    <p class="card-title"><span class="twt-handle">@saddfassdoe</span></p>
+                  </div>
+                  <div class="col s2 m2">
+                    <p class="card-title right twt-date">1 day ago</p>
+                  </div>
+                </div>
+                <p class="twt-text">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.</p>
+                <a class="twt-link" href="htts://t.co/xxbjif4s">htts://t.co/xxbjif4s</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="tweets.js"></script>
+</body>
+</html>
